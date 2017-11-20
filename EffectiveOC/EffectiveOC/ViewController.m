@@ -29,6 +29,11 @@ NSString *const EOCStringConstant = @"VALUE";//在实现文件中定义值
         
     }];
     
+    EOCConnectionState state = EOCConnectionConnecting;
+    NSLog(@"%lu",(unsigned long)state);
+    
+    
+    
     //外部可见常值变量
     NSLog(@"%@",EOCStringConstant);
     

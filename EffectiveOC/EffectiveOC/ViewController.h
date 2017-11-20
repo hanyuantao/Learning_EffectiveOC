@@ -8,9 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-extern NSString *const EOCStringConstant;//外部可见的常值变量;//在实现文件中声明
+typedef enum : NSUInteger {
+    EOCConnectionDisConnected,
+    EOCConnectionConnecting,
+    EOCConnectionDConnected,
+} EOCConnectionState;
 
+
+typedef NS_ENUM(NSInteger,EOCNetState){
+    NotFound   = 404,
+    OK         = 200,
+    NetFail    = 500
+};
+
+@interface ViewController : UIViewController
+
+
+extern NSString *const EOCStringConstant;//外部可见的常值变量;//在实现文件中声明
 
 @end
 

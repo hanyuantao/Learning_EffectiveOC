@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NSString *const EOCStringConstant;
 
 @interface HomeViewController : UIViewController
 
