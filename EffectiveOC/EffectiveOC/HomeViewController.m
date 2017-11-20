@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "ViewController.h"
 
 @interface HomeViewController ()
 
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"%@",EOCStringConstant);
     // Do any additional setup after loading the view.
 }
 

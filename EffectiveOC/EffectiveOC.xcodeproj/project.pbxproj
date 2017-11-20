@@ -13,6 +13,7 @@
 		A1AFE77B1FC32B850079378A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AFE77A1FC32B850079378A /* Assets.xcassets */; };
 		A1AFE77E1FC32B850079378A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AFE77C1FC32B850079378A /* LaunchScreen.storyboard */; };
 		A1AFE7811FC32B850079378A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AFE7801FC32B850079378A /* main.m */; };
+		A1AFE7891FC32DD50079378A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AFE7881FC32DD50079378A /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A1AFE77D1FC32B850079378A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1AFE77F1FC32B850079378A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1AFE7801FC32B850079378A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1AFE7871FC32DD50079378A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A1AFE7881FC32DD50079378A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A1AFE7721FC32B850079378A /* AppDelegate.m */,
 				A1AFE7741FC32B850079378A /* ViewController.h */,
 				A1AFE7751FC32B850079378A /* ViewController.m */,
+				A1AFE7871FC32DD50079378A /* HomeViewController.h */,
+				A1AFE7881FC32DD50079378A /* HomeViewController.m */,
 				A1AFE7771FC32B850079378A /* Main.storyboard */,
 				A1AFE77A1FC32B850079378A /* Assets.xcassets */,
 				A1AFE77C1FC32B850079378A /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				A1AFE7761FC32B850079378A /* ViewController.m in Sources */,
 				A1AFE7811FC32B850079378A /* main.m in Sources */,
 				A1AFE7731FC32B850079378A /* AppDelegate.m in Sources */,
+				A1AFE7891FC32DD50079378A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
