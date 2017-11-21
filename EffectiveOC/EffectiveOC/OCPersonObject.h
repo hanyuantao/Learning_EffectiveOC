@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface OCPersonObject : NSObject
+@property(nonatomic,copy)NSString *firstName;
+@property(nonatomic,copy)NSString *lastName;
+@property(nonatomic,copy)NSString *brain;
+-(NSString *)fullName;
+-(void)setFullName:(NSString *)fullName;
 
 @end

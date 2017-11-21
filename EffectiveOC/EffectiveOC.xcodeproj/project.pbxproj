@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1A952421FC4703200A66F78 /* OCPersonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A952411FC4703200A66F78 /* OCPersonObject.m */; };
 		A1AFE7731FC32B850079378A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AFE7721FC32B850079378A /* AppDelegate.m */; };
 		A1AFE7761FC32B850079378A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AFE7751FC32B850079378A /* ViewController.m */; };
 		A1AFE7791FC32B850079378A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AFE7771FC32B850079378A /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1A952401FC4703200A66F78 /* OCPersonObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPersonObject.h; sourceTree = "<group>"; };
+		A1A952411FC4703200A66F78 /* OCPersonObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPersonObject.m; sourceTree = "<group>"; };
 		A1AFE76E1FC32B850079378A /* EffectiveOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AFE7711FC32B850079378A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1AFE7721FC32B850079378A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				A1AFE7751FC32B850079378A /* ViewController.m */,
 				A1AFE7871FC32DD50079378A /* HomeViewController.h */,
 				A1AFE7881FC32DD50079378A /* HomeViewController.m */,
+				A1A952401FC4703200A66F78 /* OCPersonObject.h */,
+				A1A952411FC4703200A66F78 /* OCPersonObject.m */,
 				A1AFE7771FC32B850079378A /* Main.storyboard */,
 				A1AFE77A1FC32B850079378A /* Assets.xcassets */,
 				A1AFE77C1FC32B850079378A /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 				A1AFE7761FC32B850079378A /* ViewController.m in Sources */,
 				A1AFE7811FC32B850079378A /* main.m in Sources */,
 				A1AFE7731FC32B850079378A /* AppDelegate.m in Sources */,
+				A1A952421FC4703200A66F78 /* OCPersonObject.m in Sources */,
 				A1AFE7891FC32DD50079378A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
