@@ -15,6 +15,7 @@
 		A1AFE77E1FC32B850079378A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AFE77C1FC32B850079378A /* LaunchScreen.storyboard */; };
 		A1AFE7811FC32B850079378A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AFE7801FC32B850079378A /* main.m */; };
 		A1AFE7891FC32DD50079378A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AFE7881FC32DD50079378A /* HomeViewController.m */; };
+		A1D6DBC91FC5CC9E00D4CA12 /* EOEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D6DBC81FC5CC9E00D4CA12 /* EOEmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		A1AFE7801FC32B850079378A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1AFE7871FC32DD50079378A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A1AFE7881FC32DD50079378A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A1D6DBC71FC5CC9E00D4CA12 /* EOEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOEmployee.h; sourceTree = "<group>"; };
+		A1D6DBC81FC5CC9E00D4CA12 /* EOEmployee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOEmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				A1AFE7881FC32DD50079378A /* HomeViewController.m */,
 				A1A952401FC4703200A66F78 /* OCPersonObject.h */,
 				A1A952411FC4703200A66F78 /* OCPersonObject.m */,
+				A1D6DBC71FC5CC9E00D4CA12 /* EOEmployee.h */,
+				A1D6DBC81FC5CC9E00D4CA12 /* EOEmployee.m */,
 				A1AFE7771FC32B850079378A /* Main.storyboard */,
 				A1AFE77A1FC32B850079378A /* Assets.xcassets */,
 				A1AFE77C1FC32B850079378A /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 				A1AFE7761FC32B850079378A /* ViewController.m in Sources */,
 				A1AFE7811FC32B850079378A /* main.m in Sources */,
 				A1AFE7731FC32B850079378A /* AppDelegate.m in Sources */,
+				A1D6DBC91FC5CC9E00D4CA12 /* EOEmployee.m in Sources */,
 				A1A952421FC4703200A66F78 /* OCPersonObject.m in Sources */,
 				A1AFE7891FC32DD50079378A /* HomeViewController.m in Sources */,
 			);

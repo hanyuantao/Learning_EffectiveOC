@@ -8,6 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EOEmployee : NSObject
+//定义不同类型的雇员
 
+typedef enum : NSUInteger {
+    EOCEMPlyeeTypeDeveloper,
+    EOCEMPlyeeTypeDesigner,
+    EOCEMPlyeeTypeFinance,
+} EOCEmployeeType;
+
+@interface EOEmployee : NSObject
+@property(nonatomic ,copy)NSString *name;
+@property(nonatomic ,assign)NSInteger salary;
+
+//创建Object对象
++(EOEmployee *)employeeWithType:(EOCEmployeeType)type;
+
+-(void)doSomeWork;//
 @end

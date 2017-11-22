@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "EOEmployee.h"
 /*
  static 表示只在定义此变量的定义单元使用
  */
@@ -37,6 +37,8 @@ NSString *const EOCStringConstant = @"VALUE";//在实现文件中定义值
     //外部可见常值变量
     NSLog(@"%@",EOCStringConstant);
     
+    EOEmployee *emploee = [EOEmployee employeeWithType:EOCEMPlyeeTypeDeveloper];
+    [emploee doSomeWork];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
