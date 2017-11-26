@@ -44,6 +44,11 @@ NSString *const EOCStringConstant = @"VALUE";//在实现文件中定义值
 }
 
 
+//理解objc_msgSend
+
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
